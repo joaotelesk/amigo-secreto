@@ -1,8 +1,8 @@
-import styles from "./Cabecalho.module.css";
+import "./Cabecalho.css";
 
 const Cabecalho = () => {
   return (
-    <header className={styles.cabecalho}>
+    <header className="cabecalho">
       <div
         className="imagem-logo"
         role="img"

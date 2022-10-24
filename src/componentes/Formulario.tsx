@@ -26,7 +26,7 @@ const Formulario = () => {
         <button disabled={!nome}>Adicionar</button>
       </div>
       {mensagemDeErro && (
-        <p role="alert" className="alert-erro">
+        <p role="alert" className="alerta erro">
           {mensagemDeErro}
         </p>
       )}
